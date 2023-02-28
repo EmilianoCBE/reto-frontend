@@ -305,3 +305,53 @@ font-family: 'Raleway', sans-serif; */
     padding: 0 8rem;
     margin: 2rem 0;
   }
+
+  /*! FOOTER */
+
+  .footer{
+    background: #2D2A26;
+    color: white;
+  }
+
+  .footer hr{
+    border: 1px solid white;
+  }
+
+  .footer__main{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    gap: 1rem;
+    padding: 5rem 0;
+  }
+
+  .footer__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .footer__nav a{
+    color: white;
+  }
+
+  .footer__nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer__social{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem
+  }
+
+  .footer__secondary{
+    
+  }
