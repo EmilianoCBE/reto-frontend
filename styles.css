@@ -311,6 +311,7 @@ font-family: 'Raleway', sans-serif; */
   .footer{
     background: #2D2A26;
     color: white;
+    padding: 0 0 2rem;
   }
 
   .footer hr{
@@ -321,7 +322,7 @@ font-family: 'Raleway', sans-serif; */
     display: grid;
     grid-template-columns: 2fr 4fr;
     gap: 1rem;
-    padding: 5rem 0;
+    padding: 4rem 0 2rem;
   }
 
   .footer__nav{
@@ -353,5 +354,16 @@ font-family: 'Raleway', sans-serif; */
   }
 
   .footer__secondary{
-    
+    display: grid;
+    grid-template-columns: 4fr auto;
+    justify-items: start;
+    gap: 1rem;
+  }
+
+  .footer__p{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    justify-content: flex-end;
+    padding: 2rem;
   }
