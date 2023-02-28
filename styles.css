@@ -216,7 +216,7 @@ font-family: 'Raleway', sans-serif; */
   }
 
   .services p{
-    margin: 1rem 0;
+    margin: 1.5rem 0;
   }
 
   .services__title{
@@ -245,3 +245,33 @@ font-family: 'Raleway', sans-serif; */
     margin-right: 0.5rem;
     margin-top: 0.5rem;
   } */
+
+  /*! SERVICES SECOND SECTION */
+
+  .servicesSecond{
+    padding: 3rem 0;
+    margin-bottom: 7.5rem;
+    background: rgba(177, 179, 219, 0.15);
+  }
+
+  .servicesSecond p{
+    margin: 1.5rem 0;
+  }
+
+  .servicesSecond__items{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 5rem;
+  }
+
+  .servicesSecond__content ul{
+    list-style-image: url(images/check-icon.svg);
+    padding-left: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .servicesSecond__content li{
+    font-weight: bold;
+  }
