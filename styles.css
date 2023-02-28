@@ -275,3 +275,33 @@ font-family: 'Raleway', sans-serif; */
   .servicesSecond__content li{
     font-weight: bold;
   }
+
+  /*! INFORMATION */
+
+  .info{
+    padding: 0 0;
+    margin-bottom: 7.5rem;
+  }
+
+  .box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(177, 179, 219, 0.15);
+    padding: 6rem 10rem 3rem;
+  }
+
+  .box h4{
+    margin: 1rem 0;
+  }
+
+  .box img{
+    margin: 1rem 0;
+    mix-blend-mode: multiply;
+  }
+
+  .box p{
+    text-align: center;
+    padding: 0 8rem;
+    margin: 2rem 0;
+  }
