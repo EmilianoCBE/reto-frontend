@@ -177,10 +177,7 @@ font-family: 'Raleway', sans-serif; */
  .description{
     /* margin-top: 2rem auto; */
     padding: 4rem 0;
-    margin-bottom: 7.5rem;
-    /* align-items: center;
-    gap: 12.5rem;
-    margin: 6rem auto; */
+    /* margin-bottom: 0.5rem; */
   }
 
   .description__items{
@@ -218,21 +215,33 @@ font-family: 'Raleway', sans-serif; */
     margin-bottom: 7.5rem;
   }
 
+  .services p{
+    margin: 1rem 0;
+  }
+
+  .services__title{
+    margin: 3rem 0;
+  }
+
   .services__items{
     display: grid;
+    justify-items: center;
+    align-items: center;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap: 5rem;
   }
 
   .services__content ul{
-    list-style: none;
+    list-style-image: url(images/check-icon.svg);
+    padding-left: 1.2rem;
+    margin-top: 1rem;
   }
 
   .services__content li{
     font-weight: bold;
   }
-  .services__content li:before{
+  /* .services__content li:before{
     content: url(/images/check-icon.svg);
     margin-right: 0.5rem;
     margin-top: 0.5rem;
-  }
+  } */
