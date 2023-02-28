@@ -24,6 +24,8 @@
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    font-family: 'Raleway';
+    font-size: 1.125rem
   }
   /*
     6. Improve media defaults
@@ -53,17 +55,53 @@
 
 
 /*! GENERAL */
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif; */
+
+ h1{
+    font-family: 'Raleway';
+    font-size: 4rem;
+    font-weight: bold;
+ }
+ h2{
+    font-family: 'Raleway';
+    font-size: 3rem;
+    font-weight: bold;
+ }
+ h3{
+    font-family: 'Playfair Display';
+    font-size: 2.25rem;
+    font-weight: italic;
+ }
+ h4{
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+    font-weight: bold;
+ }
+ h5{
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: bold;
+ }
+
+ a{
+    text-decoration: none;
+    color: black;
+ }
+
 .container{
     width: 1170px;
     margin: 0 auto;
  }
 
+ 
+ /*! HEADER */
  .prime {
     background: rgba(177, 179, 219, 0.15);
     z-index: -1;
  }
 
-/*! HEADER */
  .gob__san{
     position: absolute;
     left: -1.2%;
@@ -90,6 +128,7 @@
     padding: 0;
     display: flex;
     gap: 2rem;
+    
  }
 
 /*! BANNER */
@@ -106,7 +145,7 @@
     background-color: var(--color-primary-10);
     border-radius: .5rem;
     display: inline-flex;
-    align-items: center;
+    /* align-items: left; */
     color: black;
     margin: 1.5rem 0;
  }
@@ -117,7 +156,9 @@
 
  .banner__img1{
     height: 20rem;
-    margin-left: 165px;
+    margin-left: 695px;
+    position: absolute;
+    z-index: 1;
     clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 15% 100%, 0% 50%);
  }
 
@@ -125,7 +166,7 @@
     height: 20rem;
     margin-left: 826px;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 15% 100%, 0% 50%);
  }
 
